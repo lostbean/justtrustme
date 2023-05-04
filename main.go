@@ -118,15 +118,12 @@ func main() {
 		<a href="%s">%s</a>
 		<br>
 		<a href="%s">%s</a>
-		<br>
-		<a href="%s">%s</a>
 		`,
 			issuer(r)+"/token", issuer(r)+"/token",
 			issuer(r)+"/token?debug=true", issuer(r)+"/token?debug=true",
 			issuer(r)+"/token?aud=sts.amazonaws.com&likes_dogs=true", issuer(r)+"/token?aud=sts.amazonaws.com&likes_dogs=true",
 			issuer(r)+"/keys", issuer(r)+"/keys",
 			issuer(r)+"/.well-known/openid-configuration", issuer(r)+"/.well-known/openid-configuration",
-			"https://github.com/chainguard-dev/justtrustme", "https://github.com/chainguard-dev/justtrustme",
 		)
 	})
 

@@ -1,4 +1,4 @@
-module github.com/chainguard-dev/justtrustme
+module justtrustme
 
 go 1.19
 
